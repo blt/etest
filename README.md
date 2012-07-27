@@ -1,4 +1,4 @@
-# etest
+# test
 
 It is a lightweight, convention over configuration test framework for
 Erlang.
@@ -146,3 +146,5 @@ tests in the `test` directory.
 
 Run ```deps/etest/bin/etest-runner test/integration/user_login_test.erl``` to
 execute a single test file.
+
+Provide the `-g GROUP` flag to run a single group.
